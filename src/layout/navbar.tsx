@@ -39,7 +39,7 @@ export default function Navbar(props: NavbarProps) {
           aria-label="Return to home page"
         >
           <div className="relative h-12 w-12 sm:h-14 sm:w-14">
-            TS
+
             {/*<AnimatedLogo />*/}
           </div>
         </Link>

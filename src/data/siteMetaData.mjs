@@ -8,7 +8,7 @@ export const siteMetadata = {
   siteName: "sadeeeyo.me",
   siteUrl: "http://localhost:3000/",
   siteRepo: "https://github.com/SadeeshThimira",
-  siteLogo: "/public/static/favicon.ico",
+  siteLogo: "@public/static/logo.png",
   image: "/public/static/favicon.ico",
   twitterImage: "/static/home.png",
   socialBanner: "/static/home.png",
