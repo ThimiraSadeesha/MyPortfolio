@@ -29,13 +29,14 @@ export default function Home() {
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <NextSeo
         title={siteMetadata.title}
-        description="Explore the professional portfolio of Thimira Sadeesha, a skilled React and Frontend Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        description="Dive into a collection of my projects and discover the breadth of my experience as a Trainee Fullstack Software Engineer. From crafting user-friendly mobile apps to building responsive web interfaces, explore the innovative solutions I've developed. Get a taste of the depth and diversity I bring to the table"
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Thimira Sadeesha - React and Frontend Developer Portfolio",
-          description:
-            "Dive into the world of web development with Thimira Sadeesha. Discover a React and Frontend Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+          title: "Discover Projects by Thimira Sadeesha - Fullstack Software Engineer",
+            description:
+                "Explore a showcase of projects crafted by Thimira Sadeesha," +
+                "Witness the skills of a Trainee Fullstack Software Engineer (Mobile and Web) in action, from crafting user-friendly mobile apps to building responsive web interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -52,7 +53,7 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "About Me, Fullstack Software Engineer ,Android ,Flutter ,NodeJs,Typescript , JavaScript, Professional Journey, Skills, Passion for Web and Mobile Development",
+              "About Me, Fullstack Software Engineer Android ,Flutter ,NodeJs, Typescript , JavaScript, Professional Journey, Skills, Passion for Web and Mobile Development",
           },
         ]}
       />

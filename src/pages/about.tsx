@@ -11,13 +11,14 @@ export default function About() {
         <>
             <NextSeo
                 title={siteMetadata.title}
-                description="Learn more about Thimira Sadeesha, a dedicated Fullstack Software Engineer. Discover the journey, skills, and passion that drive me to create innovative and user-friendly Web and Mobile solutions."
-                canonical={`${siteMetadata.siteUrl}/about`}
+                description="Dive into a collection of my projects and discover the breadth of my experience as a Trainee Fullstack Software Engineer. From crafting user-friendly mobile apps to building responsive web interfaces, explore the innovative solutions I've developed. Get a taste of the depth and diversity I bring to the table"
+                canonical={siteMetadata.siteUrl}
                 openGraph={{
-                    url: `${siteMetadata.siteUrl}/about`,
-                    title: "Learn About Thimira Sadeesha - Fullstack Software Engineer",
+                    url: siteMetadata.siteUrl,
+                    title: "Discover Projects by Thimira Sadeesha - Fullstack Software Engineer",
                     description:
-                        "Dive into the story of Thimira Sadeesha, a dedicated Fullstack Software Engineer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional Web and Mobile solutions.",
+                        "Explore a showcase of projects crafted by Thimira Sadeesha," +
+                        "Witness the skills of a Trainee Fullstack Software Engineer (Mobile and Web) in action, from crafting user-friendly mobile apps to building responsive web interfaces.",
                     images: [
                         {
                             url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -34,7 +35,7 @@ export default function About() {
                     {
                         property: "keywords",
                         content:
-                            "About Me, Fullstack Software Engineer ,Android ,Flutter ,NodeJs,Typescript , JavaScript, Professional Journey, Skills, Passion for Web and Mobile Development",
+                            "About Me, Fullstack Software Engineer Android ,Flutter ,NodeJs, Typescript , JavaScript, Professional Journey, Skills, Passion for Web and Mobile Development",
                     },
                 ]}
             />

@@ -35,7 +35,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     },
     {
         index: 2,
-        title: "News Paper Distributor",
+        title: "Distributors",
         href: "/projects",
         tags: ["Android", "MySql", "Sqlite", "JSON", "PHP", "API"],
         image: {

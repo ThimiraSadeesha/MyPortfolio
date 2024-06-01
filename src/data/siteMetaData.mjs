@@ -5,7 +5,7 @@ export const siteMetadata = {
   description: "Fullstack Software Engineer",
   language: "en-us",
   theme: "light",
-  siteName: "sadeeeyo.me",
+  siteName: "sadeesha.me",
   siteUrl: "http://localhost:3000/",
   siteRepo: "https://github.com/SadeeshThimira",
   siteLogo: "@public/static/logo.png",
