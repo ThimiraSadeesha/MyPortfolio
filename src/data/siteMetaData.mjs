@@ -12,11 +12,11 @@ export const siteMetadata = {
   image: "/public/static/favicon.ico",
   twitterImage: "/static/home.png",
   socialBanner: "/static/home.png",
-  email: "sadeeshathimira2000@gmail.com",
+  email: "sadethimira1234@gmail.com",
   github: "https://github.com/SadeeshThimira1",
   twitter: "https://x.com/Sadeeyoooo",
   linkedin: "https://www.linkedin.com/in/thimirasadeesha/",
   insta: "https://www.linkedin.com/in/thimirasadeesha/",
   locale: "en-US",
-  googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
+  googleSiteVerification: " ",
 };
