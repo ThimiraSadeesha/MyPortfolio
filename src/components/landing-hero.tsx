@@ -28,7 +28,7 @@ export default function LandingHero() {
   return (
     <motion.section
       animate={{
-        transform: `translateY(${progress * 20}vh)`,
+        transform: `translateY(${progress * 30}vh)`,
       }}
       transition={{ type: "spring", stiffness: 100 }}
       ref={ref}

@@ -30,7 +30,7 @@ export default function ProjectShowcaseList(props: ProjectShowcaseListProps) {
     >
       <span
         className={classNames(
-          "hidden text-6xl font-semibold transition-colors duration-300 lg:block",
+          "hidden text-4xl font-semibold transition-colors duration-300 lg:block",
           props.activeProject === props.data.index
             ? "text-accent"
             : "text-accent/70",
@@ -38,14 +38,14 @@ export default function ProjectShowcaseList(props: ProjectShowcaseListProps) {
       >
         {props.data.index + 1}.
       </span>
-      <span className="text-3xl font-semibold text-accent transition-colors duration-300 sm:text-4xl md:text-5xl lg:hidden">
+      <span className="text-4xl font-semibold text-accent transition-colors duration-300 sm:text-4xl md:text-5xl lg:hidden">
         {props.data.index + 1}.
       </span>
       <div className="flex flex-col gap-2">
         <Link href={props.data.href} className="relative max-w-max">
           <span
             className={classNames(
-              "hidden text-6xl font-semibold transition-colors duration-300 lg:block",
+              "hidden text-4xl font-semibold transition-colors duration-300 lg:block",
               props.activeProject === props.data.index
                 ? "text-accent"
                 : "text-accent/70",

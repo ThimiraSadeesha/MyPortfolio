@@ -57,16 +57,11 @@ export default function Home() {
           },
         ]}
       />
-      <Head>
-        {/*{siteMetadata.googleSiteVerification && (*/}
-        {/*  <meta*/}
-        {/*    name="google-site-verification"*/}
-        {/*    content={siteMetadata.googleSiteVerification}*/}
-        {/*  />*/}
-        {/*)}*/}
-      </Head>
-      <LandingHero />
-      <SkillsShowcase skills={SKILLS_DATA} />
+        <Head>
+            <link rel="icon" href="/static/favicon.png" type="image/png" />
+        </Head>
+        <LandingHero/>
+        <SkillsShowcase skills={SKILLS_DATA} />
       <ProjectShowcase projects={PROJECT_SHOWCASE} />
     </>
   );

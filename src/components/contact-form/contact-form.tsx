@@ -12,11 +12,11 @@ import {
 } from "@/utility/types";
 import { type MailSentToastState } from "@/components/contact-form/contact-mail-toast";
 
-export const mailValidationSchema = Yup.object({
-  email: Yup.string().email("Invalid email").required("Email required"),
-  name: Yup.string().required("Name required"),
-  subject: Yup.string().required("Subject required"),
-  message: Yup.string().required("Message required"),
+export const mailValidationSchema = Yup.object().shape({
+  name: Yup.string().required('Name is required'),
+  email: Yup.string().email('Invalid email').required('Email is required'),
+  subject: Yup.string().required('Subject is required'),
+  message: Yup.string().required('Message is required'),
 });
 
 export type ContactFormValues = Yup.InferType<typeof mailValidationSchema>;

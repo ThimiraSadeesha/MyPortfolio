@@ -11,15 +11,15 @@ export default function Footer() {
             Get in touch
           </span>
         </div>
-        <a
-          href={`mailto:${siteMetadata.email}`}
-          target="_blank"
-          className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-7xl"
-        >
-          <span>ThimiraS@dev.com</span>
-          {/*<br />*/}
-          {/*<span>gmail.com</span>*/}
-        </a>
+        {/*<a*/}
+        {/*  href={`mailto:${siteMetadata.email}`}*/}
+        {/*  target="_blank"*/}
+        {/*  className="mb-6 cursor-pointer text-center text-2xl font-bold underline sm:text-4xl lg:text-5xl"*/}
+        {/*>*/}
+        {/*  <span>ThimiraS@dev.com</span>*/}
+        {/*  /!*<br />*!/*/}
+        {/*  /!*<span>gmail.com</span>*!/*/}
+        {/*</a>*/}
         <div className="flex justify-center">
           <ContactButton />
         </div>
