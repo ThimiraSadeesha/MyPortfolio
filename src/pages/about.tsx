@@ -18,7 +18,7 @@ export default function About() {
                     title: "Discover Projects by Thimira Sadeesha - Fullstack Software Engineer",
                     description:
                         "Explore a showcase of projects crafted by Thimira Sadeesha," +
-                        "Witness the skills of a Trainee Fullstack Software Engineer (Mobile and Web) in action, from crafting user-friendly mobile apps to building responsive web interfaces.",
+                        "Witness the skills of a  Fullstack Software Engineer (Mobile and Web) in action, from crafting user-friendly mobile apps to building responsive web interfaces.",
                     images: [
                         {
                             url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -35,7 +35,7 @@ export default function About() {
                     {
                         property: "keywords",
                         content:
-                            "About Me, Fullstack Software Engineer Android ,Flutter ,NodeJs, Typescript , JavaScript, Professional Journey, Skills, Passion for Web and Mobile Development",
+                            "About Me, Fullstack Software Engineer Android ,Flutter ,NodeJs, Typescript , Go , JavaScript, Professional Journey, Skills, Passion for Web and Mobile Development",
                     },
                 ]}
             />
