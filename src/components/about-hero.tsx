@@ -33,7 +33,7 @@ export default function AboutHero() {
                     </FadeUp>
                     <FadeUp key="description-1" duration={0.6} delay={0.2}>
                         <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-                            I’m a passionate and driven Associate Software Engineer with a Bachelor of Information
+                            I’m a passionate and driven <span className="text-accent"> Associate Software Engineer</span> with a Bachelor of Information
                             Technology from the University of Moratuwa. I specialize in turning ideas into impactful
                             digital solutions through clean, efficient, and user-focused code. With hands-on experience
                             from internships and real-world projects, I bring a strong foundation in software
