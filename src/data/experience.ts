@@ -2,14 +2,14 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
-    title: "Trainee Fullstack Software Engineer (Mobile and Web)",
+    title: "Associate Software Engineer (Fullstack) (Mobile and Web)",
     organisation: {
       name: "Maxim",
       href: "https://www.maxim-group.com/",
     },
     date: "March 2023 - Present",
     location: "Homagama",
-    description: "Worked with microservices, Agile, TypeScript, JavaScript, Flutter, MongoDB, MySQL, Redis, NestJS, Android, Docker, MQTT, RFID, Angular, SCSS, and Tailwind.",
+    description: "Worked with microservices Go, Agile, TypeScript, JavaScript, Flutter, MongoDB, MySQL, Redis, NestJS, Android, Docker, MQTT, RFID, Angular, SCSS, and Tailwind.",
   },
   {
     title: "Intern Software Engineer (Mobile and Web)",

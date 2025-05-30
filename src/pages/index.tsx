@@ -29,14 +29,14 @@ export default function Home() {
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <NextSeo
         title={siteMetadata.title}
-        description="Dive into a collection of my projects and discover the breadth of my experience as a Trainee Fullstack Software Engineer. From crafting user-friendly mobile apps to building responsive web interfaces, explore the innovative solutions I've developed. Get a taste of the depth and diversity I bring to the table"
+        description="Dive into a collection of my projects and discover the breadth of my experience as a Associate Software Engineer (Fullstack). From crafting user-friendly mobile apps to building responsive web interfaces, explore the innovative solutions I've developed. Get a taste of the depth and diversity I bring to the table"
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
           title: "Discover Projects by Thimira Sadeesha - Fullstack Software Engineer",
             description:
                 "Explore a showcase of projects crafted by Thimira Sadeesha," +
-                "Witness the skills of a Trainee Fullstack Software Engineer (Mobile and Web) in action, from crafting user-friendly mobile apps to building responsive web interfaces.",
+                "Witness the skills of a Associate Software Engineer (Fullstack) (Mobile and Web) in action, from crafting user-friendly mobile apps to building responsive web interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
