@@ -33,19 +33,18 @@ export default function AboutHero() {
                     </FadeUp>
                     <FadeUp key="description-1" duration={0.6} delay={0.2}>
                         <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-                            I’m a passionate and driven <span className="text-accent"> Associate Software Engineer</span> with a Bachelor of Information
-                            Technology from the University of Moratuwa. I specialize in turning ideas into impactful
-                            digital solutions through clean, efficient, and user-focused code. With hands-on experience
-                            from internships and real-world projects, I bring a strong foundation in software
-                            development, effective communication, and collaboration.
+                            I’m an <span className="text-accent"> Associate Software Engineer</span> with a Bachelor’s
+                            in IT from the <span className="text-accent"> University of Moratuwa</span>
+                            . I build clean, user-focused digital solutions across web and mobile
+                            platforms.
                         </p>
                     </FadeUp>
                     <FadeUp key="description-2" duration={0.6} delay={0.4}>
                         <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-                            I thrive on solving complex problems, crafting intuitive user experiences, and contributing
-                            to meaningful projects. Whether building responsive web apps or scalable backend systems,
-                            I’m committed to delivering high-quality, maintainable solutions that align with user needs
-                            and business goals.
+                            With hands-on experience from internships and real-world projects, I bring strong
+                            problem-solving skills, clear communication, and a passion for intuitive design. From
+                            responsive frontends to scalable backends, I focus on delivering high-quality, maintainable
+                            software that drives results.
                         </p>
                     </FadeUp>
                     <FadeRight
